@@ -2,7 +2,7 @@ import telebot  # подключаем нужные библеотеки
 from telebot import types
 import random
 
-bot = telebot.TeleBot('5106445021:AAGMrrBcrvafqddQokU82_JzsVjYVB3y-cw')  # токен бота
+bot = telebot.TeleBot(TOKEN)  # токен(здесь надо вставить токен, который есть у вашего бота)
 stones = 25  # количество камней
 bot_answers = ['Пожалуй, я возьму', 'Наверно, мне стоит взять', 'Сочту нужным взять']  # реплики бота
 TURN = 'player'  # переменная, позволяющая определять кто победит
